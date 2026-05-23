@@ -75,3 +75,90 @@
 - [x] Verify all features working in production
 - [x] Test live data feeds
 - [x] Confirm auto-refresh functioning
+
+
+---
+
+## PHASE 2: ENHANCED SWING TRADING ANALYTICS
+
+### Backend Enhancements
+- [x] Expand news from 10 to 70 items in LLM prompt
+- [x] Add market impact weighting system (0-100 scale)
+- [x] Implement holistic decision framework module (holisticAnalysis.ts)
+- [x] Create CFD swing trading optimization module (cfdOptimization.ts)
+- [x] Add per-item detailed swing trading analysis to news items
+- [x] Implement market impact summary calculations
+- [x] Add technical setup analysis (trend, RSI, MACD, key levels)
+- [x] Add fundamental metrics analysis (supply/demand, geopolitical risk, macro environment)
+- [x] Implement risk factor analysis with severity levels
+- [x] Add macro context integration (Fed policy, global growth, currency trends)
+
+### Data Structure Enhancements
+- [x] Add marketMoveWeight to news items (0-100)
+- [x] Add swing trading specific metrics to news (volatility impact, correlation strength, trading opportunity)
+- [x] Add analysis field for detailed per-item swing trading insights
+- [x] Add keyFactors array to news items
+- [x] Add timeframe field (IMMEDIATE, SHORT_TERM, MEDIUM_TERM, LONG_TERM)
+- [x] Add affectedPairs array to news items
+- [x] Create TechnicalSetup type with RSI, MACD, moving averages
+- [x] Create FundamentalMetrics type with supply/demand, geopolitical risk, macro environment
+- [x] Create holistic decision framework type
+- [x] Add CFD-specific trade signal fields (position sizing, leverage, suitability, swing trading score)
+- [x] Add macro context type to intelligence report
+
+### Frontend Enhancements
+- [x] Create SwingTradingAnalytics component for displaying enhanced metrics
+- [x] Add market impact summary display
+- [x] Add technical setup panel with trend, RSI, MACD, key levels
+- [x] Add fundamental metrics panel with supply/demand, geopolitical risk, macro environment
+- [x] Add CFD trading metrics panel with position sizing, leverage, suitability
+- [x] Enhance news cards to show market move weight
+- [x] Add detailed swing trading analysis display in expanded news cards
+- [x] Add key factors display in news cards
+- [x] Add volatility impact and correlation strength indicators
+
+### Holistic Decision Framework
+- [x] Implement technical score calculation (trend, RSI, MACD)
+- [x] Implement fundamental score calculation (supply/demand, geopolitical risk, macro environment)
+- [x] Implement sentiment score calculation from weighted news items
+- [x] Implement risk/reward score calculation
+- [x] Implement holistic score fusion (weighted average of all scores)
+- [x] Generate recommended action (STRONG_BUY, BUY, HOLD, SELL, STRONG_SELL)
+- [x] Calculate overall tradeability score (0-100)
+
+### CFD Swing Trading Optimization
+- [x] Implement position sizing calculation based on account risk
+- [x] Implement pips calculation for entry, stop loss, and profit targets
+- [x] Implement CFD suitability determination (EXCELLENT, GOOD, MODERATE, POOR)
+- [x] Implement recommended leverage calculation (1-10x)
+- [x] Implement expected drawdown calculation
+- [x] Implement win probability calculation from technical + fundamental + sentiment confluence
+- [x] Create CFD trading checklist generator
+- [x] Add leverage recommendations based on risk/reward ratio and volatility
+
+### Testing & Validation
+- [x] Verify TypeScript compilation with all new modules
+- [x] Build production bundle successfully
+- [x] Verify no type errors in enhanced components
+- [x] Confirm all new modules export correctly
+- [x] Validate holistic analysis calculations
+- [x] Validate CFD optimization calculations
+
+### Deployment
+- [x] Build production bundle
+- [x] Verify enhanced analytics modules in build
+- [x] Confirm CFD optimization features in build
+- [x] Ready for Vercel deployment
+
+---
+
+## FEATURE SUMMARY
+
+**News Items:** 10 → 70 (7x expansion)
+**Market Impact Weighting:** Per-item ability to move market (0-100 scale)
+**Holistic Analysis:** Technical + Fundamental + Sentiment fusion
+**CFD Optimization:** Position sizing, leverage, suitability, swing trading score
+**Per-Item Analysis:** Detailed swing trading insights for each news item
+**Advanced Metrics:** RSI, MACD, moving averages, key levels, supply/demand, geopolitical risk
+**Risk Management:** Position sizing, max drawdown, win probability, leverage recommendations
+**Macro Context:** Fed policy, global growth, currency trends, equity market health
