@@ -597,7 +597,7 @@ export default function CrudeIntelTerminal() {
                   marginBottom: "3px",
                 }}
               >
-                🛢 CRUDE OIL INTELLIGENCE BRIEF
+                🛢 BRENT CRUDE INTELLIGENCE BRIEF
               </div>
               <div
                 style={{
