@@ -2,7 +2,7 @@
   "buildCommand": "pnpm build",
   "outputDirectory": "dist",
   "installCommand": "pnpm install",
-  "framework": "other",
+  "framework": "vite",
   "env": {
     "NODE_ENV": "production",
     "DATABASE_URL": "@database_url",
